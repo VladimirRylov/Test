@@ -45,6 +45,11 @@ import { BossLocationSpawn } from "@spt-aki/models/eft/common/ILocationBase";
 import { ICustomizationItem } from "@spt-aki/models/eft/common/tables/ICustomizationItem";
 import { table } from "console";
 
+class SecondClass{
+    public someFunc(){
+        //some code
+    }
+}
 
 class SampleTrader implements IPostDBLoadMod {
     mod: string
