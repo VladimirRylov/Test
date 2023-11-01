@@ -79,10 +79,4 @@ private addItemToLocales(tables: IDatabaseTables, itemTpl: string, name: string,
             this.logger.error(error);
         }
     }
-class InsideClass{
-     public Func(container: DependencyContainer): void 
-    {
-        //some code
-    }
-}
 }
