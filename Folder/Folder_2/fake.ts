@@ -1,3 +1,4 @@
+{
 private addItemToLocales(tables: IDatabaseTables, itemTpl: string, name: string, shortName: string, Description: string)
     {
         // For each language, add locale for the new trader
@@ -9,3 +10,4 @@ private addItemToLocales(tables: IDatabaseTables, itemTpl: string, name: string,
             locale[`${itemTpl} Description`] = Description;
         }
     }
+}
