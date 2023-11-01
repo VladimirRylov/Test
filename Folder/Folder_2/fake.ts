@@ -10,6 +10,9 @@ private add(tables: IDatabaseTables, itemTpl: string, name: string, shortName: s
             locale[`${itemTpl} Description`] = Description;
         }
     }
+    struct SomeClass{
+        
+    }
 }
 
 {
