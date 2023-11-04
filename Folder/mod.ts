@@ -50,7 +50,17 @@ class SecondClass{
         //some code
     }
 }
-
+class ThirdClass{
+    public two(){
+        //some code
+    }
+     public three(){
+        //some code
+    }
+     public five(){
+        //some code
+    }
+}
 class SampleTrader implements IPostDBLoadMod {
     mod: string
     logger: ILogger;
